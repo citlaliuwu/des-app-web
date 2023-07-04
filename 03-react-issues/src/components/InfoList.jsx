@@ -1,4 +1,4 @@
-const InfoList = ({ id, title, user, html_url}) => {
+const InfoList = ({ id, title, user, html_url }) => {
   return (
     <ul className='list-group'>
       <a className='vinculo' href={html_url}>{title}</a>
